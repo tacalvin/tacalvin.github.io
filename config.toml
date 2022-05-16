@@ -32,7 +32,7 @@ paginate     = 10
   url = "https://www.linkedin.com/in/calvin-khang-ta/"
 [[params.social]]
   name = "twitter"
-  url = "https://www.twitter.com/cta003"
+  url = "https://www.twitter.com/cta_003"
 [[params.social]]
   name = "github"
   url = "https://www.github.com/tacalvin"

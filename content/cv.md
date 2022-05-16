@@ -5,4 +5,4 @@ aliases = ["cv"]
   name = "Calvin-Khang Ta"
 +++
 
-{{< embed-pdf url="Calvin_Resume.pdf" hidePaginator=true >}}
+{{< embed-pdf url="./Calvin_Resume.pdf" hidePaginator=true >}}

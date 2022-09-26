@@ -13,10 +13,18 @@ aliases = ["about-us","about-hugo","contact"]
 Hi!
 My name is Calvin-Khang Ta and I am currently a PhD student at the University of California, Riverside. My research interests are currently methods involving self supervised learning and multi task learning. 
 
-## Publications
+## Selected Publications
+[GAMA: Generative Adversarial Multi-Object Scene Attacks](https://arxiv.org/abs/2209.09502)
+
+Abhishek Aich*, ***Calvin-Khang Ta****,, Akash Gupta, Chengyu Song, Srikanth V. Krishnamurthy, M. Salman Asif, Amit K. Roy-Chowdhury
+(* joint first authors)
+
+NeurIPS, 2022
 
 
-Poisson2Sparse: Self-Supervised Poisson Denoising From a Single Image
+---
+
+[Poisson2Sparse: Self-Supervised Poisson Denoising From a Single Image](https://arxiv.org/abs/2206.01856)
 
 ***Calvin-Khang Ta****, Abhishek Aich*, Akash Gupta*, Amit K. Roy-Chowdhury
 (* joint first authors)

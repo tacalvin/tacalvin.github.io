@@ -19,7 +19,7 @@ My name is Calvin-Khang Ta and I am currently a PhD student at the University of
 Abhishek Aich*, ***Calvin-Khang Ta****,, Akash Gupta, Chengyu Song, Srikanth V. Krishnamurthy, M. Salman Asif, Amit K. Roy-Chowdhury
 (* joint first authors)
 
-NeurIPS, 2022
+NeurIPS, 2022 [Project page](https://abhishekaich27.github.io/gama.html)  [Code](https://github.com/abhishekaich27/GAMA-pytorch)
 
 
 ---

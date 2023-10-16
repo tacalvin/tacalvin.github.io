@@ -10,10 +10,18 @@ aliases = ["about-us","about-hugo","contact"]
 
 {{< figure src="/headshot.jpg" title="Me" >}}
 
-Hi!
-My name is Calvin-Khang Ta and I am currently a PhD student at the University of California, Riverside. My research interests are currently methods involving self supervised learning and multi task learning. 
+Hi! I am Calvin-Khang Ta and am currently a PhD candidate at the University of California, Riverside. My current research interests are in generative modeling, vision language models, and 3D pose estimation. Additionally, I have professional and academic research experience in applying deep learning towards image restoration and video compression. 
 
 ## Selected Publications
+
+[Prior-guided Source-free Domain Adaptation for Human Pose Estimation](https://arxiv.org/abs/2308.13954)
+
+Dripta S. Raychaudhuri, Calvin-Khang Ta, Arindam Dutta, Rohit Lal, Amit K. Roy-Chowdhury
+
+ICCV, 2023 [Code](https://github.com/driptaRC/POST)
+
+---
+
 [GAMA: Generative Adversarial Multi-Object Scene Attacks](https://arxiv.org/abs/2209.09502)
 
 Abhishek Aich*, ***Calvin-Khang Ta****,, Akash Gupta, Chengyu Song, Srikanth V. Krishnamurthy, M. Salman Asif, Amit K. Roy-Chowdhury

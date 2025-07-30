@@ -10,9 +10,11 @@ aliases = ["about-us","about-hugo","contact"]
 
 {{< figure src="/headshot.jpg" title="Me" >}}
 
-Hi! I am Calvin-Khang Ta and am currently a PhD candidate at the University of California, Riverside. My current research interests are in generative modeling, vision language models, and 3D pose estimation. Additionally, I have professional and academic research experience in applying deep learning towards image restoration and video compression. 
+Hi! I am Calvin-Khang Ta and am currently a research scientist at Dolby. I graduated with my PhD from the University of California, Riverside. My current research interests are in generative modeling and neural data compression.
 
 ## Selected Publications
+
+
 
 [Prior-guided Source-free Domain Adaptation for Human Pose Estimation](https://arxiv.org/abs/2308.13954)
 

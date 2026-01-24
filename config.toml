@@ -2,7 +2,7 @@ baseurl      = "https://tacalvin.github.io"
 title        = "Calvin-Khang Ta"
 languageCode = "en-us"
 theme        = "hugo-theme-hello-friend-ng"
-paginate     = 10
+pagination.pagerSize = 10
 
 [params]
   dateform        = "Jan 2, 2006"

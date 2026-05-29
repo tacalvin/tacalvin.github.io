@@ -16,10 +16,11 @@ Hi! I am Calvin-Khang Ta and am currently a research scientist at Dolby Laborato
 
 [DCVC-MB: Neural B-Frame Video Compression using State Space Models]()
 
-Arjun Arora*, ***Calvin-Khang Ta****, Carlos Restrepo-Galeano*, Kruthi Murali, Naga Akhil E S, Arunkumar Mohananchettiar, Jay Shingala,Tong Shao, Peng Yin, Sean McCarthy,
+Arjun Arora*, ***Calvin-Khang Ta****, Carlos Restrepo-Galeano*, Kruthi Murali, Naga Akhil E S, Arunkumar Mohananchettiar, Jay Shingala,Tong Shao, Peng Yin, Sean McCarthy
+
 (* joint first authors)
 
-ICME, 2026
+ICME (Oral), 2026
 
 ---
 

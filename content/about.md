@@ -14,7 +14,7 @@ Hi! I am Calvin-Khang Ta and am currently a research scientist at Dolby Laborato
 
 ## Selected Publications
 
-[MixCompress: Mixture of Experts for Variable Rate Learned Image Compression]()
+[MixCompress: Mixture of Experts for Variable Rate Learned Image Compression](https://arxiv.org/abs/2607.14334)
 
 ***Calvin-Khang Ta****, Praneet Singh*, Tong Shao, Peng Yin
 
@@ -25,7 +25,7 @@ ECCV, 2026
 ---
 
 
-[DCVC-MB: Neural B-Frame Video Compression using State Space Models]()
+[DCVC-MB: Neural B-Frame Video Compression using State Space Models](https://arxiv.org/pdf/2607.14305)
 
 Arjun Arora*, ***Calvin-Khang Ta****, Carlos Restrepo-Galeano*, Kruthi Murali, Naga Akhil E S, Arunkumar Mohananchettiar, Jay Shingala,Tong Shao, Peng Yin, Sean McCarthy
 

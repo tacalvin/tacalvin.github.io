@@ -5,12 +5,12 @@
 
 &lt;p&gt;Hi! I am Calvin-Khang Ta and am currently a research scientist at Dolby Laboratories. I graduated with my PhD from the University of California, Riverside. My current research interests are in generative modeling and neural data compression.&lt;/p&gt;
 &lt;h2 id="selected-publications"&gt;Selected Publications&lt;/h2&gt;
-&lt;p&gt;&lt;a href=""&gt;MixCompress: Mixture of Experts for Variable Rate Learned Image Compression&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.14334"&gt;MixCompress: Mixture of Experts for Variable Rate Learned Image Compression&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Calvin-Khang Ta&lt;/strong&gt;&lt;/em&gt;*, Praneet Singh*, Tong Shao, Peng Yin&lt;/p&gt;
 &lt;p&gt;(* joint first authors)&lt;/p&gt;
 &lt;p&gt;ECCV, 2026&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;a href=""&gt;DCVC-MB: Neural B-Frame Video Compression using State Space Models&lt;/a&gt;&lt;/p&gt;</description></item><item><title/><link>https://tacalvin.github.io/cv/</link><pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate><guid>https://tacalvin.github.io/cv/</guid><description>&lt;script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.8.335/build/pdf.min.js" integrity="sha256-zRPZmNIE243+AcY4l08d17mLQKv7Srm0y4LLMpV0Ep8=" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;p&gt;&lt;a href="https://arxiv.org/pdf/2607.14305"&gt;DCVC-MB: Neural B-Frame Video Compression using State Space Models&lt;/a&gt;&lt;/p&gt;</description></item><item><title/><link>https://tacalvin.github.io/cv/</link><pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate><guid>https://tacalvin.github.io/cv/</guid><description>&lt;script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.8.335/build/pdf.min.js" integrity="sha256-zRPZmNIE243+AcY4l08d17mLQKv7Srm0y4LLMpV0Ep8=" crossorigin="anonymous"&gt;&lt;/script&gt;
 &lt;style&gt;
 #the-canvas {
  border: 1px solid black;

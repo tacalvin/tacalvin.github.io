@@ -10,7 +10,7 @@ aliases = ["about-us","about-hugo","contact"]
 
 {{< figure src="/headshot.jpg" title="Me" >}}
 
-Hi! I am Calvin-Khang Ta and am currently a research scientist at Dolby Laboratories. I graduated with my PhD from the University of California, Riverside. My current research interests are in generative modeling and neural data compression.
+Hi! I am Calvin-Khang Ta and am currently a research scientist at Voia. I graduated with my PhD from the University of California, Riverside. My current research interests are in generative modeling and their applications to VFX.
 
 ## Selected Publications
 

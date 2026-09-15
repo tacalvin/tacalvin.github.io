@@ -37,8 +37,23 @@
     </div>
   </section>
 
+  <section class="indexed-section" id="experience" aria-labelledby="experience-heading">
+    {{ partial "section-header.html" (dict "number" "03" "label" "Work history" "aside" "Selected experience") }}
+    <h2 class="sr-only" id="experience-heading">Work history</h2>
+    <div class="experience-list">
+      {{ range hugo.Data.experience.experience }}
+      <article class="experience-entry">
+        <p class="experience-entry__period">{{ .period }}</p>
+        <div><h3>{{ .organization }}</h3><p class="experience-entry__role">{{ .role }}</p></div>
+        <div><p>{{ .description }}</p><p class="experience-entry__location">{{ .location }}</p></div>
+      </article>
+      {{ end }}
+    </div>
+    <a class="section-link" href="/cv/">Complete curriculum vitae <span aria-hidden="true">→</span></a>
+  </section>
+
   <section class="indexed-section about-preview" aria-labelledby="about-heading">
-    {{ partial "section-header.html" (dict "number" "03" "label" "Profile" "aside" "Background & contact") }}
+    {{ partial "section-header.html" (dict "number" "04" "label" "Profile" "aside" "Background & contact") }}
     <div class="about-preview__grid">
       <h2 id="about-heading">Research at the boundary of models and moving images.</h2>
       <div>

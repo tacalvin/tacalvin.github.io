@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="page-shell inner-page">
+  <header class="page-intro">
+    <p class="index-label">Archive / 01</p>
+    <h1>Publications</h1>
+    <p>A chronological record of public research in computer vision, learned compression, generative modeling, and human understanding.</p>
+  </header>
+  <section class="indexed-section" aria-labelledby="publication-list-heading">
+    {{ partial "section-header.html" (dict "number" "01" "label" "Complete record" "aside" "2022—present") }}
+    <h2 class="sr-only" id="publication-list-heading">Complete publication record</h2>
+    <div class="publication-list publication-list--full">
+      {{ range $index, $publication := sort hugo.Data.publications.publication "year" "desc" }}
+        {{ partial "publication-entry.html" (dict "publication" $publication "index" (add $index 1)) }}
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}

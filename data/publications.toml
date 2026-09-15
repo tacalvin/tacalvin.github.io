@@ -1,0 +1,78 @@
+[[publication]]
+title = "MixCompress: Mixture of Experts for Variable Rate Learned Image Compression"
+authors = "Calvin-Khang Ta*, Praneet Singh*, Tong Shao, Peng Yin"
+note = "* Joint first authors"
+venue = "ECCV"
+year = 2026
+selected = true
+description = "A single variable-rate learned image codec that uses sparse expert routing to reduce gradient conflict across compression levels."
+paper = "https://arxiv.org/abs/2607.14334"
+report = "/posts/mixcompress/"
+
+[[publication]]
+title = "DCVC-MB: Neural B-Frame Video Compression using State Space Models"
+authors = "Arjun Arora*, Calvin-Khang Ta*, Carlos Restrepo-Galeano*, Kruthi Murali, Naga Akhil E S, Arunkumar Mohananchettiar, Jay Shingala, Tong Shao, Peng Yin, Sean McCarthy"
+note = "* Joint first authors"
+venue = "ICME · Oral"
+year = 2026
+selected = true
+description = "A neural B-frame compression method built around state-space models for efficient bidirectional temporal context."
+paper = "https://arxiv.org/pdf/2607.14305"
+
+[[publication]]
+title = "Multi-modal Pose Diffuser: A Multimodal Generative Conditional Pose Prior"
+authors = "Calvin-Khang Ta, Arindam Dutta, Rohit Kundu, Rohit Lal, Hannah Dela Cruz, Dripta S. Raychaudhuri, Amit Roy-Chowdhury"
+venue = "Under review"
+year = 2024
+selected = true
+description = "A multimodal conditional diffusion prior for generating diverse, plausible human poses."
+paper = "https://arxiv.org/abs/2410.14540"
+
+[[publication]]
+title = "Conformal Prediction and MLLM aided Uncertainty Quantification in Scene Graph Generation"
+authors = "Sayak Nag, Udita Ghosh, Calvin-Khang Ta, Sarosij Bose, Jiachen Li, Amit K. Roy-Chowdhury"
+venue = "CVPR"
+year = 2025
+selected = true
+description = "Uncertainty-aware scene graph generation combining conformal prediction with multimodal language models."
+paper = "https://openaccess.thecvf.com/content/CVPR2025/papers/Nag_Conformal_Prediction_and_MLLM_aided_Uncertainty_Quantification_in_Scene_Graph_CVPR_2025_paper.pdf"
+
+[[publication]]
+title = "POISE: Pose Guided Human Silhouette Extraction Under Occlusions"
+authors = "Arindam Dutta, Rohit Lal, Dripta S. Raychaudhuri, Calvin-Khang Ta, Amit K. Roy-Chowdhury"
+venue = "WACV"
+year = 2024
+description = "Pose-guided silhouette extraction designed to remain robust when people are partially occluded."
+paper = "https://openaccess.thecvf.com/content/WACV2024/papers/Dutta_POISE_Pose_Guided_Human_Silhouette_Extraction_Under_Occlusions_WACV_2024_paper.pdf"
+code = "https://github.com/take2rohit/poise"
+
+[[publication]]
+title = "Prior-guided Source-free Domain Adaptation for Human Pose Estimation"
+authors = "Dripta S. Raychaudhuri, Calvin-Khang Ta, Arindam Dutta, Rohit Lal, Amit K. Roy-Chowdhury"
+venue = "ICCV"
+year = 2023
+description = "A prior-guided approach to adapting pose estimators to a new domain without access to source data."
+paper = "https://arxiv.org/abs/2308.13954"
+code = "https://github.com/driptaRC/POST"
+
+[[publication]]
+title = "GAMA: Generative Adversarial Multi-Object Scene Attacks"
+authors = "Abhishek Aich*, Calvin-Khang Ta*, Akash Gupta, Chengyu Song, Srikanth V. Krishnamurthy, M. Salman Asif, Amit K. Roy-Chowdhury"
+note = "* Joint first authors"
+venue = "NeurIPS"
+year = 2022
+description = "A generative framework for constructing multi-object scene attacks against visual recognition systems."
+paper = "https://arxiv.org/abs/2209.09502"
+project = "https://abhishekaich27.github.io/gama.html"
+code = "https://github.com/abhishekaich27/GAMA-pytorch"
+
+[[publication]]
+title = "Poisson2Sparse: Self-Supervised Poisson Denoising From a Single Image"
+authors = "Calvin-Khang Ta*, Abhishek Aich*, Akash Gupta*, Amit K. Roy-Chowdhury"
+note = "* Joint first authors"
+venue = "MICCAI"
+year = 2022
+description = "A self-supervised method for denoising a single image corrupted by signal-dependent Poisson noise."
+paper = "https://arxiv.org/abs/2206.01856"
+project = "https://tacalvin.github.io/Poisson2Sparse/"
+code = "https://github.com/tacalvin/Poisson2Sparse"

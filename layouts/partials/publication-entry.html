@@ -1,0 +1,15 @@
+{{ $p := .publication }}
+<article class="publication-entry">
+  <div class="publication-entry__index" aria-hidden="true">{{ printf "%02d" .index }}</div>
+  <div class="publication-entry__meta">
+    <span>{{ $p.venue }}</span>
+    <span>{{ $p.year }}</span>
+  </div>
+  <div class="publication-entry__body">
+    <h3>{{ $p.title }}</h3>
+    <p class="publication-entry__authors">{{ $p.authors }}</p>
+    {{ with $p.note }}<p class="publication-entry__note">{{ . }}</p>{{ end }}
+    {{ with $p.description }}<p class="publication-entry__description">{{ . }}</p>{{ end }}
+    {{ partial "publication-links.html" $p }}
+  </div>
+</article>

@@ -1,6 +1,6 @@
 baseurl      = "https://tacalvin.github.io"
 title        = "Calvin-Khang Ta"
-languageCode = "en-us"
+locale       = "en-US"
 theme        = "hugo-theme-hello-friend-ng"
 pagination.pagerSize = 10
 
@@ -11,19 +11,19 @@ pagination.pagerSize = 10
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "Computer Vision Researcher | Software Engineer"
+  homeSubtitle = "Computer vision, generative models, and visual effects research"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
 
   # theme toggle
-  enableThemeToggle = true
+  enableThemeToggle = false
   # Enable sharing buttons, if you like
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "Calvin-Khang Ta | Computer Vision Researcher | Software Engineer"
-  keywords = "homepage, blog"
+  description = "Calvin-Khang Ta is a research scientist working in computer vision, generative modeling, learned compression, and visual effects."
+  keywords = "computer vision, generative models, visual effects, learned compression, research"
   images = [""]
 
 [[params.social]]
@@ -53,7 +53,7 @@ pagination.pagerSize = 10
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "hello.sh"
+      logoText = "Calvin-Khang Ta"
       logoHomeLink = "/"
     # or
     #
@@ -61,6 +61,11 @@ pagination.pagerSize = 10
     # alt = "Your example logo alt text"
 
   # And you can even create generic menu
+
+  [[menu.main]]
+    identifier = "publications"
+    name       = "Publications"
+    url        = "/publications"
 
   [[menu.main]]
     identifier = "about"
@@ -76,5 +81,3 @@ pagination.pagerSize = 10
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
-
-    

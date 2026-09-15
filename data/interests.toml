@@ -1,0 +1,11 @@
+[[interest]]
+name = "Generative video"
+description = "Models that synthesize and transform temporally coherent visual worlds."
+
+[[interest]]
+name = "Visual effects"
+description = "Research tools for controllable editing, compositing, and production-quality image transformation."
+
+[[interest]]
+name = "Human motion"
+description = "Generative priors and visual understanding for plausible, expressive human movement."

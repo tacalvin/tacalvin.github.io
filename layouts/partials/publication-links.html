@@ -1,0 +1,19 @@
+{{- $publication := . -}}
+{{- $links := slice
+  (dict "key" "paper" "label" "Paper")
+  (dict "key" "project" "label" "Project")
+  (dict "key" "report" "label" "Research note")
+  (dict "key" "video" "label" "Video")
+  (dict "key" "supplement" "label" "Supplement")
+  (dict "key" "dataset" "label" "Dataset")
+  (dict "key" "code" "label" "Code")
+  (dict "key" "slides" "label" "Slides")
+  (dict "key" "doi" "label" "DOI")
+  (dict "key" "arxiv" "label" "arXiv")
+-}}
+<div class="publication-links" aria-label="Publication resources">
+  {{- range $link := $links -}}
+    {{- $url := index $publication $link.key -}}
+    {{- with $url }}<a href="{{ . }}">{{ $link.label }} <span aria-hidden="true">↗</span></a>{{ end -}}
+  {{- end -}}
+</div>

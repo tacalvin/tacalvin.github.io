@@ -1,0 +1,66 @@
+{{ define "main" }}
+<div class="page-shell home">
+  <section class="intro" aria-labelledby="intro-title">
+    <p class="eyebrow">Research scientist · Voia</p>
+    <h1 id="intro-title">Calvin-Khang Ta</h1>
+    <div class="intro__grid">
+      <p class="intro__fields">Computer Vision<br>Generative Models<br>Visual Effects</p>
+      <p class="intro__statement">I develop generative visual models for compression, human motion, and controllable image-making—connecting fundamental computer vision research with production tools.</p>
+      <p class="intro__status"><span class="status-mark" aria-hidden="true"></span>Research Scientist<br>PhD · UC Riverside</p>
+    </div>
+  </section>
+
+  <section class="indexed-section" id="work" aria-labelledby="work-heading">
+    {{ partial "section-header.html" (dict "number" "01" "label" "Selected work" "aside" "A concise research index") }}
+    <h2 class="sr-only" id="work-heading">Selected work</h2>
+    <div class="publication-list">
+      {{ $index := 0 }}
+      {{ range where hugo.Data.publications.publication "selected" true }}
+        {{ $index = add $index 1 }}
+        {{ partial "publication-entry.html" (dict "publication" . "index" $index) }}
+      {{ end }}
+    </div>
+    <a class="section-link" href="/publications/">Complete publication record <span aria-hidden="true">→</span></a>
+  </section>
+
+  <section class="indexed-section" id="interests" aria-labelledby="interests-heading">
+    {{ partial "section-header.html" (dict "number" "02" "label" "Research interests" "aside" "Current directions") }}
+    <h2 class="sr-only" id="interests-heading">Research interests</h2>
+    <div class="interest-list">
+      {{ range $index, $interest := hugo.Data.interests.interest }}
+      <article class="interest">
+        <p class="interest__number">R{{ printf "%02d" (add $index 1) }}</p>
+        <h3>{{ $interest.name }}</h3>
+        <p>{{ $interest.description }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="indexed-section" id="experience" aria-labelledby="experience-heading">
+    {{ partial "section-header.html" (dict "number" "03" "label" "Work history" "aside" "Selected experience") }}
+    <h2 class="sr-only" id="experience-heading">Work history</h2>
+    <div class="experience-list">
+      {{ range hugo.Data.experience.experience }}
+      <article class="experience-entry">
+        <p class="experience-entry__period">{{ .period }}</p>
+        <div><h3>{{ .organization }}</h3><p class="experience-entry__role">{{ .role }}</p></div>
+        <div><p>{{ .description }}</p><p class="experience-entry__location">{{ .location }}</p></div>
+      </article>
+      {{ end }}
+    </div>
+    <a class="section-link" href="/cv/">Complete curriculum vitae <span aria-hidden="true">→</span></a>
+  </section>
+
+  <section class="indexed-section about-preview" aria-labelledby="about-heading">
+    {{ partial "section-header.html" (dict "number" "04" "label" "Profile" "aside" "Background & contact") }}
+    <div class="about-preview__grid">
+      <h2 id="about-heading">Research at the boundary of models and moving images.</h2>
+      <div>
+        <p>I am a research scientist at Voia and earned my PhD from the University of California, Riverside.</p>
+        <div class="text-links"><a href="/about/">About</a><a href="/cv/">Curriculum vitae</a><a href="mailto:tacalvin123@gmail.com">Get in touch</a></div>
+      </div>
+    </div>
+  </section>
+</div>
+{{ end }}

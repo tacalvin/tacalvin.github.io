@@ -1,0 +1,27 @@
+[[experience]]
+organization = "Voia"
+role = "AI Researcher"
+period = "2026—Present"
+location = "Sunnyvale, California"
+description = "Generative visual models and research for creative, production-oriented video tools."
+
+[[experience]]
+organization = "Dolby Laboratories"
+role = "Senior Researcher · Neural Video Compression"
+period = "2024—2026"
+location = "Sunnyvale, California"
+description = "Research and development of neural image and video compression systems, including variable-rate models."
+
+[[experience]]
+organization = "UC Riverside · Video Computing Group"
+role = "Graduate Research Assistant"
+period = "2020—2024"
+location = "Riverside, California"
+description = "Computer vision research spanning generative priors, human pose, image restoration, and robust visual learning."
+
+[[experience]]
+organization = "Dolby · Vimaan · Amazon"
+role = "Research & Software Engineering Internships"
+period = "2018—2023"
+location = "California"
+description = "Applied research in neural video coding, computer vision, machine learning systems, and software engineering."

@@ -1,0 +1,8 @@
+{{ define "main" }}
+<div class="page-shell inner-page">
+  <header class="page-intro"><p class="index-label">Index / {{ .Section }}</p><h1>{{ .Title }}</h1></header>
+  <section class="post-list" aria-label="{{ .Title }}">
+    {{ range .Pages }}<article><p class="index-label">{{ .Date.Format "2006.01.02" }}</p><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Summary | plainify | truncate 180 }}</p></article>{{ end }}
+  </section>
+</div>
+{{ end }}

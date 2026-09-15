@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="page-shell inner-page cv-page">
+  <header class="page-intro page-intro--split">
+    <div><p class="index-label">Profile / CV</p><h1>Curriculum vitae</h1></div>
+    <div><p>Research experience, education, publications, and professional history.</p><a class="download-link" href="/Calvin_Resume.pdf" download>Download PDF <span aria-hidden="true">↓</span></a></div>
+  </header>
+  <section class="cv-document" aria-labelledby="cv-preview-heading">
+    <div class="section-header"><p class="index-label">01 / Document</p><p class="section-header__aside">PDF · updated 2026</p></div>
+    <h2 class="sr-only" id="cv-preview-heading">CV document preview</h2>
+    <iframe src="/js/pdf-js/web/viewer.html?file=%2FCalvin_Resume.pdf" title="Calvin-Khang Ta curriculum vitae"></iframe>
+  </section>
+</div>
+{{ end }}

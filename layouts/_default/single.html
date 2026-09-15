@@ -1,0 +1,10 @@
+{{ define "main" }}
+<article class="page-shell inner-page prose-page">
+  <header class="page-intro">
+    <p class="index-label">{{ if eq .Section "posts" }}Research note{{ else }}Profile{{ end }} / {{ .Date.Format "2006" }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </header>
+  <div class="prose">{{ .Content }}</div>
+</article>
+{{ end }}

@@ -1,0 +1,7 @@
+# Hugo output and local build state
+/public/
+/resources/_gen/
+/.hugo_build.lock
+
+# Local editor and OS files
+.DS_Store

@@ -1,4 +1,13 @@
 [[publication]]
+title = "Multi-modal Pose Diffuser: A Multimodal Generative Conditional Pose Prior"
+authors = "Calvin-Khang Ta, Arindam Dutta, Rohit Kundu, Rohit Lal, Hannah Dela Cruz, Dripta S. Raychaudhuri, Amit Roy-Chowdhury"
+venue = "WACV"
+year = 2027
+selected = true
+description = "A multimodal conditional diffusion prior for generating diverse, plausible human poses."
+paper = "https://arxiv.org/abs/2410.14540"
+
+[[publication]]
 title = "MixCompress: Mixture of Experts for Variable Rate Learned Image Compression"
 authors = "Calvin-Khang Ta*, Praneet Singh*, Tong Shao, Peng Yin"
 note = "* Joint first authors"
@@ -18,15 +27,6 @@ year = 2026
 selected = true
 description = "A neural B-frame compression method built around state-space models for efficient bidirectional temporal context."
 paper = "https://arxiv.org/pdf/2607.14305"
-
-[[publication]]
-title = "Multi-modal Pose Diffuser: A Multimodal Generative Conditional Pose Prior"
-authors = "Calvin-Khang Ta, Arindam Dutta, Rohit Kundu, Rohit Lal, Hannah Dela Cruz, Dripta S. Raychaudhuri, Amit Roy-Chowdhury"
-venue = "Under review"
-year = 2024
-selected = true
-description = "A multimodal conditional diffusion prior for generating diverse, plausible human poses."
-paper = "https://arxiv.org/abs/2410.14540"
 
 [[publication]]
 title = "Conformal Prediction and MLLM aided Uncertainty Quantification in Scene Graph Generation"
